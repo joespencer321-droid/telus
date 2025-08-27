@@ -1,0 +1,58 @@
+/* ===== TELUS Color Scheme ===== */
+
+/* Logo */
+.form-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+:root {
+  --telus-green: #66cc00;
+  --telus-dark: #004c1a;
+}
+
+/* Form Card */
+.form-card {
+  max-width: 600px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Title */
+.form-title {
+  color: var(--telus-dark);
+  font-weight: 700;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: var(--telus-dark);
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+.form-control:focus {
+  border-color: var(--telus-green);
+  box-shadow: 0 0 6px rgba(102, 204, 0, 0.4);
+}
+
+/* Button */
+.btn-success {
+  background-color: var(--telus-green);
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: var(--telus-dark);
+  transform: scale(1.02);
+}
